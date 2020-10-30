@@ -1,4 +1,23 @@
+@media (width:1280px)  {
+    .container {
+        max-width: 73%;
+    }
+}
+
+
 @media (max-width: 420px) {
+
+    .hamburger {
+        display: block;
+        padding: 2px;
+    }
+    .hamburger span{
+        display: block;
+    }
+    .header {
+        height: 100vh;
+    }
+
     .navigation {
         display: none;
         /*visibility: hidden; */
@@ -39,6 +58,10 @@
 
     .manage {
         height: auto;
+    }
+
+    .capabilities {
+        text-align: center;
     }
 
     .capabilities-text {
