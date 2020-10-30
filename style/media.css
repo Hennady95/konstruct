@@ -5,7 +5,7 @@
 }
 
 
-@media (max-width: 420px) {
+@media (max-width: 820px){
 
     .hamburger {
         display: block;
@@ -19,8 +19,6 @@
 
     .navigation {
         display: none;
-        /*visibility: hidden; */
-
     }
 
     .simple-text__word-wrap {
@@ -34,6 +32,10 @@
     .story-container {
         text-align: center;
         justify-content: center;
+    }
+
+    .story-description {
+        max-width: 100%;
     }
 
     .story-content {
