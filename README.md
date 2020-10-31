@@ -1,3 +1,3 @@
 # Konstruct
 
-https://hennady95.github.io/Konstruct/
+https://hennady95.github.io/konstruct/
