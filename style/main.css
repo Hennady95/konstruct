@@ -79,7 +79,7 @@ a {
     background: #00A4E5;
 }
 
-button:hover {
+.button:hover {
     background: #00ff00;
 }
 
