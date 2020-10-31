@@ -15,40 +15,40 @@ body {
 .hamburger {
     display: none;
     position: absolute;
-    top: 15px;
-    right: 15px;
-    width: 30px;
-    height: 30px;
-    padding: 5px;
+    top: 1.5em;
+    right: 1.5em;
+    width: 3em;
+    height: 3em;
+    padding: 0.5em;
     background: #FFFFFF;
     border-radius: 25%;
 }
-.hamburger > span{
+.hamburger span{
     display: none;
     position: absolute;
-    height: 3px;
-    width: 20px;
+    height: 0.3em;
+    width: 2em;
     z-index: 2;
     background: #171819;
 }
 
 .hamburger span::after {
     position: absolute;
-    top: 8px;
+    top: 0.8em;
     left: 0;
     content: '';
-    height: 3px;
-    width: 20px;
+    height: 0.3em;
+    width: 2em;
     background: #171819;
 }
 
 .hamburger span::before {
     position: absolute;
-    top: 16px;
+    top: 1.6em;
     left: 0;
     content: '';
-    height: 3px;
-    width: 20px;
+    height: 0.3em;
+    width: 2em;
     background: #171819;
 } 
 
@@ -69,7 +69,7 @@ a {
     font-family: 'Open Sans',sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: calc((100vh / 100) + 2px);/*13px;*/
+    font-size: calc((100vh / 100) + 2px);
     line-height: 18px;
     text-align: center;    
     text-transform: uppercase;
@@ -87,7 +87,7 @@ a {
     font-family: 'Open Sans',sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: calc((100vh / 100) + 2   px);/*11px;*/
+    font-size: calc((100vh / 100) + 2px);
     line-height: 15px;
     letter-spacing: 0.846154px;
     color: #FFFFFF;
@@ -99,13 +99,13 @@ a {
 
 .simple-text__large-bold {
     font-weight: 700;
-    font-size: calc((100vw / 100) + 10px);/*20px;*/
+    font-size: calc((100vw / 100) + 10px);
     line-height: 27px;
 }
 
 .simple-text__largest {
     font-weight: 800;
-    font-size: calc((100vh / 100) + 15px);/*24px;*/
+    font-size: calc((100vh / 100) + 15px);
     line-height: 29px;
 }
 
@@ -127,7 +127,6 @@ a {
 }
 
 .simple-text__word-wrap {
-    /*white-space: pre-line;*/
     max-width: 405px;
 }
 
@@ -144,7 +143,7 @@ a {
 .header {
     position: relative;
     height: 768px;
-    background: url(../img/backgrounds/background_header.svg) no-repeat center/cover;/*cover -- для равномерного заполнения блока*/
+    background: url(../img/backgrounds/background_header.svg) no-repeat center/cover;
 }
 
 .header .container {
@@ -164,47 +163,47 @@ a {
 
 .triangle:after {
     position: absolute;
-    top: 5px;
+    top: 0.2em;
     left: 0;
     content: '';
-    width: 0px; 
-    height: 0px;
-    margin-right: 2px; 
-    border-top: 9px solid transparent;
-    border-bottom: 9px solid transparent; 
+    width: 0em; 
+    height: 0em;
+    margin-right: 0.2em; 
+    border-top: 0.4em solid transparent;
+    border-bottom: 0.4em solid transparent; 
   
-    border-right:8px solid #00A4E5;
+    border-right: 0.3em solid #00A4E5;
 }
 
 .header-text__small {
-    margin-top: 41px;
-    font-size: calc((100vh /100) + 10px); /*25px;*/
+    margin-top: 4.1em;
+    font-size: calc((100vh /100) + 10px); 
     font-weight: 400;
     letter-spacing: 2px;
 }
 
 .header-text__large {
-    font-size: calc((100vw /100) + 40px);/*60px;*/
+    font-size: calc((100vw /100) + 40px);
     letter-spacing: 5.70937px;
 }
 
 .header-description {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
-    font-size: calc((100vh /100) + 8px);/*16px;*/
-    line-height: 22px;
+    font-size: calc((100vh /100) + 8px);
+    line-height: 2.2em;
     text-align: center;
     color: #FFFFFF;
 }
 
 .button-scroll {
-    height: 15px;
-    margin-bottom: 71px;
+    height: 1.5em;
+    margin-bottom: 7.1em;
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
     font-weight: 600;
-    font-size: calc((100vh /100) + 4px);/*11px;*/
-    line-height: 15px;
+    font-size: calc((100vh /100) + 4px);
+    line-height: 1.5em;
     letter-spacing: 3.7px;
     text-transform: uppercase;
     color: #FFFFFF;
@@ -219,17 +218,12 @@ a {
 /*NAVIGATION===============
 ===================================*/
 
-.navigation {
-    /*height: 65px;*/
-}
-
 .navigation .container {
     display: flex;
     position: relative;
     padding: 0.5em 0;
     justify-content: space-between;
     align-items: center;
-    /*height: 100%;*/
 }
 
 .navigation .container li {
@@ -309,7 +303,6 @@ a {
 
 .capabilities {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     text-align: left;
@@ -317,7 +310,7 @@ a {
 
 .capabilities-text {
     max-width: 43.3em;
-    margin-left: 17em;
+    margin: 0 1em 0 12em;
 }
 
 .show-services {
@@ -358,7 +351,7 @@ a {
     margin: 9em 0em 1.3em 2.3em;
     font-style: normal;
     font-weight: bold;
-    font-size: calc(100vh / 100 + 6px);    /*16px;*/
+    font-size: calc(100vh / 100 + 6px);  
     text-align: left;
     line-height: 2.4em;
     letter-spacing: 0.426667px;
@@ -366,7 +359,7 @@ a {
 
 .card-text {
     margin-left: 2.3em;
-    font-size: calc(100vh / 100 + 2px);/*13px;*/
+    font-size: calc(100vh / 100 + 2px);
     line-height: 2.3em;
     letter-spacing: 0.1875px;
     text-align: left;
@@ -386,11 +379,11 @@ a {
 .service-title {
     height: 7.2em;
     width: 35em;
-    padding: 12em auto 3.5em auto;
+    padding: 12em 0 4.5em 0;
     font-family: 'Open Sans',sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: calc(100vh / 100 + 20px);/*30px;*/
+    font-size: calc(100vh / 100 + 20px);
     line-height: 36px;
     letter-spacing: 0.15px;
     color: #48555B;
@@ -416,7 +409,7 @@ a {
     margin-right: 7em;
     font-family: 'Open Sans',sans-serif;
     font-weight: bold;
-    font-size: calc(100vh / 100 + 11px);/*22px;*/
+    font-size: calc(100vh / 100 + 11px);
     line-height: 3em;
     text-align: center;
     letter-spacing: 0.846154px;
@@ -434,7 +427,7 @@ a {
     font-family: 'Open Sans',sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: calc(100vh / 100 + 5px);/*14px;*/
+    font-size: calc(100vh / 100 + 5px);
     letter-spacing: 0.07px;
     color: #48555B;
     border: none;
@@ -452,7 +445,6 @@ a {
     flex-wrap: wrap;
     padding: 4.2em 0 4em 0;
     justify-content: space-around;
-    align-items: top;
     text-align: left;
 }
 
@@ -516,7 +508,7 @@ a {
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: calc(100vh / 100 + 1px);/*11px;  /*calc(0.2em + 1vw); для мобилок*/
+    font-size: calc(100vh / 100 + 1px);
     line-height: 15px;
     letter-spacing: 0.846154px;
     color: #FFFFFF;

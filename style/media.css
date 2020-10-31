@@ -18,6 +18,10 @@
         font-size: calc(100vh / 100 + 4px);
     }
 
+    .form input {
+        height: 3em;
+    }
+
     .copyright {
         font-size: calc(100vh / 100 + 3px);
     }
@@ -33,6 +37,7 @@
     .items {
         display: none;
     }
+
     .hamburger span{
         display: block;
     }
@@ -104,6 +109,7 @@
     }
 
     .capabilities {
+        flex-wrap: wrap;
         text-align: center;
     }
 
@@ -185,7 +191,7 @@
 @media (max-height:425px) {
     
     .button-scroll {
-        font-size: calc((100vw / 100) + 5px);/*11px;*/
+        font-size: calc((100vw / 100) + 5px);
     }
 
     .button {
@@ -210,6 +216,10 @@
 
     .simple-text__large-bold {
         font-size: calc(100vw / 100 + 10px)
+    }
+
+    .form input {
+        height: 3.3em;
     }
 
     .copyright {
