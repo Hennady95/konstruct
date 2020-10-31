@@ -52,6 +52,10 @@
         border-right: 0.3em solid #00A4E5;
     }
 
+    .button-scroll{
+        margin: 0 auto 3.1em auto;
+    }
+
     .navigation {
         display: none;
     }
@@ -60,20 +64,30 @@
         font-size: calc(100vh / 100 + 6px);
     }
 
-    .simple-text__largest {
+    .book-text {
         font-size: calc(100vh / 100 + 18px);
     }
 
-    .simple-text__large-bold {
+    .story-title {
         font-size: calc(100vh / 100 + 8px);
-    }
-
-    .simple-text__word-wrap {
-        white-space: normal;
     }
 
     .main .container {
         padding-top: 1.5em;
+    }
+
+    .main-title::after {
+        position: absolute;
+        top: 1.5em;
+        left: 40%;
+        margin-top: 0;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        content: '';
+        height: 2px;
+        width: 50px;
+        background:  #00A4E5;
     }
 
     .story-container {
@@ -92,7 +106,7 @@
     .service-title {
         width: 100%;
         height: max-content;
-        margin: 0;
+        margin: 0 auto;
         padding: 1.5em 0em;
     }
 
@@ -120,6 +134,16 @@
     .capabilities {
         margin-top: 1.5em;
         justify-content: center;
+    }
+
+    .capabilities-title::after {
+        position: absolute;
+        top: 1.5em;
+        left: 30%;
+        content: '';
+        height: 2px;
+        width: 50px;
+        background:  #00A4E5;
     }
 
     .service-card {
@@ -183,6 +207,10 @@
         padding-top: 1em;
     }
 
+    .link-wrap li {
+        padding-bottom: 1em;
+    }
+
     .copyright {
         font-size: calc(100vh / 100 + 4.5px);
     }
@@ -192,10 +220,21 @@
     
     .button-scroll {
         font-size: calc((100vw / 100) + 5px);
+        margin: 0 auto 2.1em auto;
     }
 
     .button {
         height: 5em;
+    }
+
+    .main-title::after {
+        position: absolute;
+        top: 1.5em;
+        left: 45%;
+        content: '';
+        height: 2px;
+        width: 50px;
+        background:  #00A4E5;
     }
 
     .card-title {
@@ -210,11 +249,11 @@
         font-size: calc(100vw / 100 + 5px);
     }
 
-    .simple-text__largest {
+    .book-text {
         font-size: calc(100vh / 100 + 22px);
     }
 
-    .simple-text__large-bold {
+    .story-title {
         font-size: calc(100vw / 100 + 10px)
     }
 
