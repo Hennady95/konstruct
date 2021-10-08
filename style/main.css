@@ -17,15 +17,15 @@ body {
     position: absolute;
     top: 1.5em;
     right: 1.5em;
-    width: 3em;
-    height: 3em;
+    width: 4em;
+    height: 4em;
     padding: 0.5em;
     background: #FFFFFF;
     border-radius: 25%;
 }
 .hamburger span{
-    display: none;
-    position: absolute;
+    display: block;
+    position: relative;
     height: 0.3em;
     width: 2em;
     z-index: 2;
@@ -34,7 +34,7 @@ body {
 
 .hamburger span::after {
     position: absolute;
-    top: 0.8em;
+    top: -0.8em;
     left: 0;
     content: '';
     height: 0.3em;
@@ -44,7 +44,7 @@ body {
 
 .hamburger span::before {
     position: absolute;
-    top: 1.6em;
+    bottom: -0.8em;
     left: 0;
     content: '';
     height: 0.3em;
@@ -128,7 +128,7 @@ a {
 
 .triangle:after {
     position: absolute;
-    top: 0.2em;
+    top: 0.18em;    
     left: 0;
     content: '';
     width: 0em; 
@@ -242,7 +242,7 @@ a {
 .main-title::after {
     position: absolute;
     top: 1.5em;
-    left: 48%;
+    left: calc(50% - 25px);
     content: '';
     height: 2px;
     width: 50px;
@@ -336,7 +336,8 @@ a {
 
 .capabilities-title::after {
     position: absolute;
-    top: 1.5em;
+    /*top: 1.5em;*/
+    bottom: -5px;
     left: 0;
     content: '';
     height: 2px;
@@ -360,16 +361,17 @@ a {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    padding-bottom: 8em;
 }
 
 .service-card {
-    width: 29.5em;
-    margin: 8em 0px 11.5em;
+    max-width: 29.5em;
+    margin: 4em 2em 0 0/*11.5em*/;
     border: 1px solid #E6E6E6;
 }
 
 .service-card:nth-child(2) {
-    margin: 8em 1.4em 11.5em;
+   /* margin: 8em 1.4em 11.5em;*/
 }
 
 .service-card__project {
